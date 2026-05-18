@@ -2,7 +2,7 @@ package com.hstn.spring.security.configuration;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-public class MuWebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
+public class MyWebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return null;
